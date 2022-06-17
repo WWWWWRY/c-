@@ -14,3 +14,11 @@ int main(void) {
 	printf("%d", number);
 	return 0;
 }
+//输出单个字符
+#include<stdio.h>
+int main(void) {
+	char a;		//声明char变量
+	a = 'A';
+	printf("%c", a);
+	return 0;
+}
