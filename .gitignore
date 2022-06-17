@@ -4,3 +4,13 @@ int main(void) {
 	printf("hello,world\n");
 	return 0;
 }
+//输入输出整数
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+int main(void) {
+	int number;
+	printf("enter a number: ");
+	scanf("%d", &number);
+	printf("%d", number);
+	return 0;
+}
