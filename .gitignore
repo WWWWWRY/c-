@@ -22,3 +22,37 @@ int main(void) {
 	printf("%c", a);
 	return 0;
 }
+//输出浮点数
+#include<stdio.h>
+int main(void) {
+	float f = 1.234567;
+	printf("%f", f);
+	return 0;
+}
+//输出双精度型
+#include<stdio.h>
+int main(void) {
+	double d = 1.23456789;
+	printf("%le", d);
+	return 0;
+}
+//两个数相加
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+int main(void) {
+	float fristnumber, secondnumber;		//定义第一个数字，第二个数字
+	printf("enter fristnumber and secondnumber: ");
+	scanf("%f %f", &fristnumber, &secondnumber);
+	printf("%f", fristnumber + secondnumber);
+	return 0;
+}
+//两个浮点数想乘
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+int main(void) {
+	float frist_float, second_float;
+	printf("enter two number: ");
+	scanf("%f %f", &frist_float, &second_float);
+	printf("%f * %f = %f", frist_float, second_float, frist_float * second_float);
+	return 0;
+}
